@@ -1,0 +1,63 @@
+@font-face{
+    font-family:  D-DIN-Bold;
+    src: url('d-din/D-DIN-Bold.otf');
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: black;
+color: #fff;
+font-family: D-DIN-Bold,Arial,Verdana,sans-serif ;
+}
+a{color: #fff;
+}
+svg{
+    fill: #fff;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 40px;
+}
+header svg{
+    width: 200px;
+}
+header a.logo{
+    margin-right: 40px;
+}
+    .center-nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font size: 14px;
+        padding: 0 13px;
+}
+.right-nav{
+    position:fixed;
+    right: 0;
+    top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.right-nav a{
+    padding-right: 40px;
+    text-transform: uppercase;
+        text-decoration: none;
+        font size: 14px;
+        padding: 0 50px;
+}
+.hamburger{
+    position: absolute;
+    right: 0;
+    top: 7px;
+    color: #fff;
+    padding: 20px;
+    background-color: transparent;
+    border: 0;
+    transform: rotate(90deg);
+}
